@@ -30,6 +30,7 @@ require_once('config/class.config.php');
 					?>
 						<a href='logout.php'>выход</a>
 						<a href='cabinet.php'>кабинет</a>	
+				
 				<?php	
 				}
 				else{

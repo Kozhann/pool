@@ -1,0 +1,100 @@
+body{
+background:url('../img/8.jpg');
+padding:0;
+margin:0;
+}
+#header{
+		height:200px;
+		background:url('../img/11.jpg');
+	
+}
+ #logo {
+		float:left;
+		padding-left:5px;
+		height:100px;
+}
+ #headlinks{
+		float:right;
+		padding:20px;
+}
+#headlinks a{
+ color:blue;
+ font-size:18px;
+ background:white;
+ padding:3px;
+ border-radius:3px;
+ border:solid 1px blue;
+ box-shadow:1px 1px 1px black;
+ margin-right:3px;
+}
+.topmenu{
+display:-moz-box;
+display:-webkit-flex;
+display:flex;
+text-align:center;
+flex-direction:row;
+width:100%;
+margin:0;
+}
+.topmenu a{
+display:block;
+-moz-box:1;
+-webkit-flex:1;
+flex:1;
+font-size:14px;
+padding:10px;
+color:blue;
+background:white;
+text-decoration:none;
+border-right:1px blue solid;
+}
+.topmenu a:hover{
+background:none;
+color:blue;
+}
+
+.menu a{
+width:100%;
+margin-top:2px;
+}
+.cabinet a{
+color:blue;
+width :20%;
+ font-size:18px;
+ background:white;
+ padding:3px;
+ border-radius:3px;
+ border:solid 1px blue;
+ margin-right:30px;
+ flex-direction:column;
+ display:block;
+}
+.zakaz{
+background:url('../img/4.jpg');
+
+.tovar{
+float:left;
+width :220px;
+padding:10px;
+border:solid 7px black;
+ margin:10px;
+box-shawdow:2px 2px 2px black;
+border-rading:6px;
+}
+#footer{
+		 background:#jpg;
+		 padding-top:40px;
+		 padding-width:40px;
+		 text-align:cs;
+		}
+@media screen and (max-width:768px){
+	#logo{
+	display:none;
+	}
+	#header{
+	height:100px;
+	}
+	.topmenu{
+	flex-direction:column;
+	}
+}
